@@ -1,5 +1,7 @@
 # ДЗ к лекции ArrayBuffer - ArrayBuffer
 
+[![Build status](https://ci.appveyor.com/api/projects/status/6xsgpgiapyaaftcw?svg=true)](https://ci.appveyor.com/project/elenakoch122/ajs-25-9-2-array-buffer)
+
 ### Легенда
 
 Периодически данные приходят в бинарном формате и их необходимо преобразовать в какой-либо другой формат, например, строку json, чтобы потом распарсить в объект. Для этих манипуляций в том числе можно использовать объекты, которые предоставляются Web API - `File` и `Blob`, но прямая манипуляция `ArrayBuffer` будет в разы быстрее и эффективнее.
